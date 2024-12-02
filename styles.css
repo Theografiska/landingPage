@@ -25,7 +25,7 @@ header a {
 }
 
 button {
-    background-color: #1d92f8;
+    background-color: #1269f5;
     color: white;
     padding: 0.4rem 1.2rem;
     border-radius: 0.5rem;
@@ -77,12 +77,31 @@ p {
     text-align: center;
 }
 
-.random-section h2 {
+h2 {
     margin: 2rem 0;
 }
 
 .box-section {
     display: flex;
     margin-bottom: 4rem;
+    gap: 1rem;
 }
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.box {
+    width: 6rem;
+    height: 6rem;
+    border: solid 3px #1269f5;
+    border-radius: 0.75rem;
+    flex-shrink: 0;
+}
+
+/* quote section */
 
