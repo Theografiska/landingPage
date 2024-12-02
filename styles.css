@@ -10,7 +10,7 @@ body {
 }
 
 header, main, footer {
-    padding: 0 4rem;
+    padding: 0 6rem;
 }
 
 
@@ -21,8 +21,18 @@ header {
 
 header a {
     color: white;
+    text-decoration: none;
 }
 
+button {
+    background-color: #1d92f8;
+    color: white;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+/* navbar */ 
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -35,24 +45,44 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 1rem;
+    gap: 2rem;
 }
 
+/* hero section */ 
 .hero-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 0;
+    padding: 6rem 0;
+    gap: 2rem;
+}
+
+h1, p {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 200;
 }
 
 .hero-image {
-    width: 50%;
+    flex-shrink: 0;
+    background-color: #a7a7a7;
+    padding: 4rem;
 }
 
+/* random section */
 .random-section {
     text-align: center;
 }
 
-main h2 {
+.random-section h2 {
     margin: 2rem 0;
 }
+
+.box-section {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
