@@ -7,25 +7,54 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Roboto, sans-serif;
 }
 
-header, main, footer {
+header, .random-section, .quote-section, .call-to-action-section, footer {
     padding: 0 6rem;
 }
 
+/* headings */
 
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+header h3 {
+    font-size: 24px;
+}
+
+h1, p {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #1F2937;
+}
+/* header */ 
 header {
-    background: #174061;
+    background: #1F2937;
     color: white;
+}
+
+header h3 {
+    color: #F9FAF8;
 }
 
 header a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
+header p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 button {
-    background-color: #1269f5;
+    background-color: #3882F6;
     color: white;
     padding: 0.4rem 1.2rem;
     border-radius: 0.5rem;
@@ -46,6 +75,7 @@ ul {
     margin: 0;
     padding: 0;
     gap: 2rem;
+    font-size: 18px;
 }
 
 /* hero section */ 
@@ -53,17 +83,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem 0;
+    padding: 8rem 0;
     gap: 2rem;
-}
-
-h1, p {
-    margin-bottom: 0.5rem;
-}
-
-p {
-    font-size: 0.9rem;
-    font-weight: 200;
 }
 
 .hero-image {
@@ -78,13 +99,18 @@ p {
 }
 
 h2 {
-    margin: 2rem 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 4rem 0;
 }
 
 .box-section {
     display: flex;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
     gap: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .box-container {
@@ -93,15 +119,49 @@ h2 {
     align-items: center;
     gap: 0.5rem;
     justify-content: center;
+    width: 10rem;
 }
 
 .box {
-    width: 6rem;
-    height: 6rem;
+    width: 10rem;
+    height: 10rem;
     border: solid 3px #1269f5;
     border-radius: 0.75rem;
     flex-shrink: 0;
 }
 
+.text-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* quote section */
 
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 8rem;
+}
+
+.quote {
+    font-size: 36px;
+    padding: 0 4rem;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    line-height: 1.25;
+}
+
+.quote-author {
+    margin-top: 1rem;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 4rem;
+}
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    color: white;
+}
