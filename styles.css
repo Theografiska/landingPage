@@ -32,11 +32,12 @@ h1, p {
 
 p {
     color: #1F2937;
+    font-weight: 200;
 }
 /* header */ 
 header {
     background: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 header h3 {
@@ -56,9 +57,11 @@ header p {
 button {
     background-color: #3882F6;
     color: white;
-    padding: 0.4rem 1.2rem;
+    padding: 0.6rem 1.8rem;
     border-radius: 0.5rem;
     font-weight: bold;
+    font-size: 1.1rem;
+    flex-shrink: 0;
 }
 
 /* navbar */ 
@@ -90,7 +93,7 @@ ul {
 .hero-image {
     flex-shrink: 0;
     background-color: #a7a7a7;
-    padding: 4rem;
+    padding: 6rem;
 }
 
 /* random section */
@@ -159,9 +162,39 @@ h2 {
     padding-right: 4rem;
 }
 
+/* call-to-action section */
+
+.call-to-action-section {
+    background-color: #1269f5;
+    margin: 4rem 8rem;
+    padding: 3rem 6rem;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.call-to-action-section p {
+    color: #F9FAF8;
+    padding-top: 0.5rem;
+}
+
+.call-to-action-section h3 {
+    font-size: 24px;
+}
+
+.call-to-action-section button {
+    border-color: white;
+}
+
 /* footer */
 
 footer {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
