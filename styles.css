@@ -41,12 +41,16 @@ header {
 }
 
 header h3 {
-    color: #F9FAF8;
+    color: #F97316;
+    text-transform: uppercase;
 }
 
 header a {
-    color: #E5E7EB;
+    color: #1F2937;
     text-decoration: none;
+    background-color: #C0C0C0;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
 }
 
 header p {
@@ -55,13 +59,14 @@ header p {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #F97316;
     color: white;
     padding: 0.6rem 1.8rem;
     border-radius: 0.5rem;
     font-weight: bold;
     font-size: 1.1rem;
     flex-shrink: 0;
+    margin: 1rem 0rem;
 }
 
 /* navbar */ 
@@ -91,13 +96,12 @@ ul {
 }
 
 .hero-image {
-    flex-shrink: 0;
-    background-color: #a7a7a7;
-    padding: 6rem;
+    padding: 0;
+    flex: 0;
 }
 
-/* random section */
-.random-section {
+/* portfolio section */
+.portfolio-section {
     text-align: center;
 }
 
@@ -122,20 +126,32 @@ h2 {
     align-items: center;
     gap: 0.5rem;
     justify-content: center;
-    width: 10rem;
+    width: 8rem;
 }
 
 .box {
     width: 10rem;
-    height: 10rem;
-    border: solid 3px #1269f5;
-    border-radius: 0.75rem;
+    height: 8rem;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    max-height: 6rem;
+    width: auto;
+    filter: grayscale(100%);
 }
 
 .text-div {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.company-name {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* quote section */
@@ -165,7 +181,7 @@ h2 {
 /* call-to-action section */
 
 .call-to-action-section {
-    background-color: #1269f5;
+    background: #1F2937;
     margin: 4rem 8rem;
     padding: 3rem 6rem;
     color: #F9FAF8;
