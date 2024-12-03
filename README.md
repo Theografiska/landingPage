@@ -2,6 +2,8 @@
 
 This is a landing page for *Summit Horizon Capital*, a venture fund dedicated to backing the underdogs who dare to do the improbable. The page showcases the fund's mission, portfolio highlights, and provides a call-to-action for entrepreneurs to pitch their vision.
 
+![Screenshot of the landing page](assets/screenshot.png)
+
 Credit to the hero image goes to Henry Lim. https://unsplash.com/@henrylim.
 
 Airbnb logo by Alexis Doreau. https://iconscout.com/contributors/alexis-doreau.
